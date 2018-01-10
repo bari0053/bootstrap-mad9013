@@ -1,0 +1,44 @@
+/* Color scheme
+L-Blue: #09C3FF
+ Green: #63DE1F
+ Red-B: #AA6D05
+Purple: #AA2669
+D-Blue: #0632CC
+*/
+
+@import url('https://fonts.googleapis.com/css?family=ABeeZee|Vidaloka');
+
+*{
+    font-family: ABeeZee, Roboto, Arial, sans-serif;
+    background-color:  #63DE1F!important;
+    color: #0632CC;
+}
+
+h1,h2,h3{ 
+    font-family: Vidaloka, "Times New Roman", Times, serif;
+    margin: 5px 20px;
+    color:#0632CC;
+}
+
+.iconic{
+    width: 60px;
+    height: 40px;
+    fill: #0632CC;
+}
+
+.iconic:hover{
+    fill: #AA2669;
+}
+
+@media (min-width: 640px) {
+.space{
+    margin-left:20px;
+    }
+}
+.lead{
+    text-align: center;
+    max-width: 1000px
+}
+.foot{
+    text-align: center;
+}
